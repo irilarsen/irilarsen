@@ -1,0 +1,37 @@
+.app {
+  min-height: 100vh;
+  background: #f7f7f8;
+  color: #1f2933;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-shell {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.editor {
+  width: min(900px, 100%);
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e3e7ec;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+  padding: 32px;
+}
+
+.editor .ProseMirror {
+  min-height: 55vh;
+  outline: none;
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #1f2933;
+}
+
+.editor .ProseMirror p {
+  margin: 0 0 1rem 0;
+}
